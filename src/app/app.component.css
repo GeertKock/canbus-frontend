@@ -1,0 +1,19 @@
+.data-container {
+    overflow: hidden; /* This ensures the container wraps around the floated elements */
+  }
+  
+  .left, .right {
+    width: 50%; 
+    float: left; /* This makes the elements sit side by side */
+  }
+  
+  .right {
+    float: right; /* This ensures the right component aligns to the right */
+  }
+  
+
+  .data-container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }

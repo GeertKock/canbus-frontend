@@ -1,0 +1,9 @@
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 400px; /* Adjust as needed */
+    background-color: #f9f9f9;
+    max-height: 500px; /* Set the maximum height as per your requirement */
+    overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+  }

@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Canbus data retrieved</h2>
+  <hr>
+    <div *ngFor="let data of canData">
+      <div>
+      <p>Type: {{ data.type }}</p>
+      <p>value: {{ data.value }}</p>
+      <p>timestamp: {{ data.timestamp }}</p>
+    </div>
+    <hr>
+  </div>
+</div>
